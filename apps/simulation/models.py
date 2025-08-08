@@ -2997,3 +2997,8 @@ def extra_simulation_750(x):
 def extra_simulation_751(x):
     """Extra distinct 751 for simulation"""
     return x
+
+# feat: add simulation lockstep tick 16ms with fixed point - feature/simulation-lockstep
+def sim_extra_tick(state):
+    return state.get('tick',0)+1
+
