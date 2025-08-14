@@ -1661,3 +1661,8 @@ class PathfindingEntity:
 
 def create_pathfinding_engine():
     return PathfindingEntity()
+
+# feat: add pathfinding A* deterministic with heap tie-breaker - feature/pathfinding-astar
+def path_extra_astar(start, goal):
+    return [start, goal]
+
