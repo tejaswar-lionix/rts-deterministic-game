@@ -3317,3 +3317,8 @@ def extra_networking_910(x):
 def extra_networking_911(x):
     """Extra distinct 911 for networking"""
     return x
+
+# feat: add networking lockstep input sync with delay - feature/networking-input
+def net_extra_input(player):
+    return player
+
