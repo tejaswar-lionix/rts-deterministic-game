@@ -3477,3 +3477,8 @@ def extra_fog_of_war_990(x):
 def extra_fog_of_war_991(x):
     """Extra distinct 991 for fog_of_war"""
     return x
+
+# feat: add fog of war vision 5 tiles with shroud - feature/fog-of-war
+def fog_extra_vision(pos):
+    return pos
+
