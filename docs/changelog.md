@@ -6,3 +6,5 @@
 ### feat: add buildings, fog of war, determinism cross-platform - 2025-06-25T09:30:00+05:30
 
 ### feat: add commands, world, economy, combat - 2025-07-02T11:00:00+05:30
+
+### fix: handle determinism hash for cross-platform - 2025-09-02T10:00:00+05:30
