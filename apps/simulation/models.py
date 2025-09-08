@@ -3003,3 +3003,4 @@ def sim_extra_tick(state):
     return state.get('tick',0)+1
 
 def gh_pr_1(x): return x
+def gh_pr_2(x): return x
